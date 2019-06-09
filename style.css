@@ -1,0 +1,28 @@
+.param{
+  font-family: fantasy,sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+  color: blue;
+
+}
+table{
+  padding: 5px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    margin: 10px;
+
+}
+td,th{
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+div{
+  font-family: cursive;
+  font-style: normal;
+  color: tale;
+}
+#span{
+  font-style: italic;
+}
