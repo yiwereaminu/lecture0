@@ -1,4 +1,4 @@
-from flask import flask
+from flask import Flask
 
 app = Flask(__name__)
 @app.route("/")
@@ -13,7 +13,7 @@ def amin():
 def yiwere():
     return "Hello, Yiwere"
 
-//dynamic route
+
 @app.route("/<string:name>")
 def dynamic(name):
     return f"Hello, {name}"
