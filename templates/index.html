@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      body{
+        text-align: center;
+        /*padding-top: 300px;
+        font-size: 50px;*/
+        font-family: monospace;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>My websites</title>
+  </head>
+  <body>
+  <!--
+  condition in jinja 2
+
+   <h1>{{headline}}</h1>
+     <h1>{{callUsNow}}</h1>
+     {%if newYear %}
+         <h1>Yes! Happy New Year.</h1>
+     {%else%}
+         <h1>No!</h1>
+     {%endif%}-->
+     <!--loops-->
+     <h1>Names</h1>
+     <ol>
+       {%for name in names%}
+       <li>{{name}}</li>
+       {%endfor%}
+     </ol>
+
+  </body>
+</html>
